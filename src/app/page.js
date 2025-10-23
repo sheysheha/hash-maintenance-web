@@ -116,7 +116,7 @@ export default function HashMaintenanceServices() {
             <a href="#home" className="block hover:text-cyan-600 hover:scale-110 transition font-medium">Home</a>
             <a href="#services" className="block hover:text-cyan-600 hover:scale-110 transition font-medium">Services</a>
             <a href="#about" className="block hover:text-cyan-600 hover:scale-110 transition font-medium">About</a>
-            <a href="#testimonials" className="block hover:text-cyan-600 hover:scale-110 transition font-medium">Reviews</a>
+            {/* <a href="#testimonials" className="block hover:text-cyan-600 hover:scale-110 transition font-medium">Reviews</a> */}
             <a href="#contact" className="block hover:text-cyan-600 hover:scale-110 transition font-medium">Contact</a>
           </div>
         )}
@@ -324,7 +324,7 @@ export default function HashMaintenanceServices() {
       </section>
 
       {/* Testimonials Section */}
-      <section id="testimonials" className="py-20 bg-white">
+      {/* <section id="testimonials" className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">What Our Clients Say</h2>
@@ -355,7 +355,7 @@ export default function HashMaintenanceServices() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Contact Section */}
       <section id="contact" className="py-20 bg-gradient-to-b from-gray-50 to-white">
